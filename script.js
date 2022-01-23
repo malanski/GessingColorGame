@@ -24,7 +24,7 @@ resetButton.addEventListener("click", function() {
 });
 
 function setupSquares() {
-    for (var i = 0; i< squares.length; i++) {
+    for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
         squares[i].addEventListener("click", function() {
             var clickedColor = this.style.backgroundColor;
@@ -50,7 +50,7 @@ function setupMode() {
             if (this.textContent === "Easy") {
                 numSquares = 3;
             }else{
-                numSquares = 0;
+                numSquares = 6;
             }
             reset();
         });

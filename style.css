@@ -25,6 +25,16 @@ body{
     -moz-transition: background .5s;
     -o-transition:  background .5s;
 }
+.social-media{
+    text-align: center;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
 
 h1{
     color: white;
@@ -91,6 +101,22 @@ button:hover{
     border: 0px solid red
 }
 
+.links{
+    text-align: center;
+    display: inline-table;
+    color: white;
+    font-size: 20px;
+    width: 100vw;
+}
+
+.links ul{
+    text-align: right;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    width: 65vw;
+}
+
 @media screen and (max-width:360px) {
     #container{
         max-width: 100vw;
@@ -98,10 +124,4 @@ button:hover{
         padding-left: 0;
         padding-right: 0;
     }
-    .square{
-
-
-
-    }
-    
 }
